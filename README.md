@@ -6,6 +6,11 @@
 
 ---
 
+##引用方式
+
+	在js文件中引用模块
+	var moment = require('moment');
+
 ## 格式化日期
 
 当前时间：
