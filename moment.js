@@ -9,7 +9,7 @@
         // AMD. Register as an anonymous module.
         module.exports = factory();
     } else {
-        window.global = factory();
+        window.moment = factory();
     }
 }(function () { 'use strict';
 
