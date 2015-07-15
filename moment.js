@@ -5,7 +5,7 @@
 //! momentjs.com
 
 (function (factory) {
-    if ( typeof dwfis.define === 'function') {
+    if ( typeof dwfis !== "undefined" && typeof dwfis.define === "function") {
         // AMD. Register as an anonymous module.
         module.exports = factory();
     } else {
